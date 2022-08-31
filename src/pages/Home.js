@@ -82,7 +82,7 @@ export default function Home() {
                         //defaultValue = { {label: 'Seleccionar...', value: ''} }
                         options = { seguros }
                         onChange = { handleSelectChange }
-                        className = 'select-bice'
+                        className = {selectClass}
                         />
                     </div>
                     <div className='col-3'>
